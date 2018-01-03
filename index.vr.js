@@ -91,20 +91,20 @@ export default class Chill extends React.Component {
           text={"Watch"} 
           changeScenes={this.changeScenes.bind(this)} 
           scene={this.state.scene}/> */}
-            {/* <Menu
+            <Menu
               img={this.state.img}
               showButton={false}
               text={"Select Film"}
               changeScenes={this.changeScenes.bind(this)}
               scene={this.state.scene}
-            /> */}
-            <Player 
+            />
+            {/* <Player 
             streamID={this.state.selectedStreamID} 
             env={this.state.selectedEnv} 
             showButton={true} 
             text={"Back to Menu"} 
             changeScenes={this.changeScenes.bind(this)} 
-            scene={this.state.scene}/>
+            scene={this.state.scene}/> */}
       </View>
     );
   }
